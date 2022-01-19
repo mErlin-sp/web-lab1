@@ -9,7 +9,7 @@
 </head>
 <body>
 <div id='header' class='simple_border'>
-    <p style='margin: auto'>
+    <p style='grid-row: 1;grid-column: 1'>
         Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus eleifend, orci in vehicula iaculis, nisl
         ligula convallis massa, at venenatis lorem tortor at libero. Vivamus suscipit auctor felis, ac bibendum
         magna venenatis tempor. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos
@@ -19,9 +19,12 @@
         fermentum odio. Sed vel vulputate dolor. Morbi dolor lorem, aliquam at accumsan et, varius ac turpis. Aenean
         tristique id augue sed tempor. Maecenas vitae semper est.
     </p>
-    <div class='vertical_center x_y' id='x_block'>
-        <h2 style='text-align: center; margin: 0; width: 100%;' class='vertical_center'>Heading 1</h2>
+    <div style="width: 140px; height: 100%;grid-row: 1;grid-column: 2; margin-right: 20px; margin-left: 10px;">
+        <div class='x_y vertical_center' id='x_block'>
+            <h2 style='text-align: center; margin: 0; width: 100%;' class="vertical_center">Heading 1</h2>
+        </div>
     </div>
+
 </div>
 <div id='main'>
     <div id='second'>Lorem ipsum dolor sit amet, consectetur adipiscing elit.
@@ -189,9 +192,11 @@
         fermentum odio. Sed vel vulputate dolor. Morbi dolor lorem, aliquam at accumsan et, varius ac turpis. Aenean
         tristique id augue sed tempor. Maecenas vitae semper est.
     </p>
-    <div class='vertical_center x_y'>
-        <h2 style='text-align: right; margin: 0; right: 5px; width: 100%;' class='vertical_center'>
-            Heading 2</h2>
+    <div style="width: 140px; height: 100%;grid-row: 1;grid-column: 2; margin-right: 20px; margin-left: 10px">
+        <div class='x_y vertical_center' style="overflow: hidden">
+            <h2 style='text-align: center; width: 100%; margin:0; margin-left: 10px; ' class="vertical_center">Heading
+                2 </h2>
+        </div>
     </div>
 </div>
 </body>
